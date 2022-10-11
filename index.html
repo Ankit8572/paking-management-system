@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parking Management System</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/style.css"/>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+          <div class="icon">
+              <h2 class="logo">PMS</h2>
+          </div>
+
+          <div class="menu">
+              <ul>
+                  <li><a href="/index.html">HOME</a></li>
+                  <li><a href="/about_us.html">ABOUT</a></li>
+                  <li><a href="/user.html">SERVICE</a></li>
+                  <li><a href="/Record.html">DESIGN</a></li>
+                  <li><a href="/subscribe.html">CONTACT</a></li>
+              </ul>
+          </div>
+
+          <div class="search">
+              <input class="srch" type="search" name="" placeholder="Type To text">
+              <a href="#"> <button class="btn">Search</button></a>
+          </div>
+
+      </div> 
+      <div class="content">
+          <h1>Parking  <br><span>Management</span> <br>System</h1>
+          <p class="par">Our Parking Management System will ease people's task of finding safe
+            parking spots in real time. <br>The system helps an individual to pre-book
+            the parking spot from the distant area, reducing traffic<br> congestion
+            and allowing a user to know the availability of parking space in
+            advance.<br> Our parking management solution can significantly offer
+            benefit to both the user and <br>the parking lot owner as it helps in
+            reducing traffic by enhancing user experience.</p>
+
+              <button class="cn"><a href="#">JOIN US</a></button>
+
+              <div class="form">
+                  <h2>Login Here</h2>
+                  <input type="email" name="email" placeholder="Enter Email Here">
+                  <input type="password" name="" placeholder="Enter Password Here">
+                  <button class="btnn"><a href="#">Login</a></button>
+
+                  <p class="link">Don't have an account<br>
+                  <a href="/signupform.html">Sign up </a> here</a></p>
+                  <p class="liw">Log in with</p>
+
+                  <div class="icons">
+                      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                      <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                      <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                      <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                      <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                  </div>
+
+              </div>
+                  </div>
+              </div>
+      </div>
+  </div>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js">
+    (function(doc){
+  var scriptElm = doc.scripts[doc.scripts.length - 1];
+  var warn = ['[ionicons] Deprecated script, please remove: ' + scriptElm.outerHTML];
+
+  warn.push('To improve performance it is recommended to set the differential scripts in the head as follows:')
+
+  var parts = scriptElm.src.split('/');
+  parts.pop();
+  parts.push('ionicons');
+  var url = parts.join('/');
+
+  var scriptElm = doc.createElement('script');
+  scriptElm.setAttribute('type', 'module');
+  scriptElm.src = url + '/ionicons.esm.js';
+  warn.push(scriptElm.outerHTML);
+  scriptElm.setAttribute('data-stencil-namespace', 'ionicons');
+  doc.head.appendChild(scriptElm);
+
+  
+  scriptElm = doc.createElement('script');
+  scriptElm.setAttribute('nomodule', '');
+  scriptElm.src = url + '/ionicons.js';
+  warn.push(scriptElm.outerHTML);
+  scriptElm.setAttribute('data-stencil-namespace', 'ionicons');
+  doc.head.appendChild(scriptElm)
+  
+  console.warn(warn.join('\n'));
+
+})(document);
+  </script>
+  </body>
+</html>
